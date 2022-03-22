@@ -1,0 +1,3075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns10111101101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x0192A8">
+  <layouts>
+    <layout name="npnxnanbsnfns10111101101" font="Verdana" controllayout="npnxnanbsnfns10111101101" colorscheme="npxnabnsnfns10111101101" string_table="npxnabnsnfns10111101101" />
+    <layout name="pxabnsnfns10111101101" font="Verdana" controllayout="pxabnsnfns10111101101" colorscheme="npxnabnsnfns10111101101" string_table="npxnabnsnfns10111101101" />
+    <layout name="npxnabnsnfns10111101101" font="Verdana" controllayout="npxnabnsnfns10111101101" colorscheme="npxnabnsnfns10111101101" string_table="npxnabnsnfns10111101101" />
+    <layout name="npnxnanbnsnfns10111101101" font="Verdana" controllayout="npnxnanbnsnfns10111101101" colorscheme="npxnabnsnfns10111101101" string_table="npxnabnsnfns10111101101" />
+    <layout name="pxabnsnfns10111101100" font="Verdana" controllayout="pxabnsnfns10111101100" colorscheme="npxnabnsnfns10111101101" string_table="npxnabnsnfns10111101101" />
+    <layout name="pnxanbnsnfns10111101101" font="Verdana" controllayout="pnxanbnsnfns10111101101" colorscheme="npxnabnsnfns10111101101" string_table="npxnabnsnfns10111101101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Retain and Renew Customer Relationships" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="outline" value="true" group="linkleft" />
+              <listitem name="transcript" value="true" group="linkleft" />
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="glossary" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="false">
+            <options>
+              <option name="font" value="Verdana" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns10111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns10111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns10111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns10111101100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns10111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npxnabnsnfns10111101101">
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFBFBFB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x214400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428E00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2E5D00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C7C00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5B6264" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838282" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAAAAAA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x838282" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8C8C8C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="50" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2C2F30" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8E8E8E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F4548" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFBFBFB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="1" stop="89" />
+                <color rgb="0x000000" alpha="6" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0192A8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7D7D7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x272B2C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFBFBFB" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="30" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDCDCDC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x919191" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x585858" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE8E8E8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npxnabnsnfns10111101101">
+      <string id="three_image_items">items</string>
+      <string id="three_image_viewed">viewed</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_item">item</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Transcript</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Verdana">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+        <file bold="false" italic="true" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6DUcF2yb1i8" displaytext="Retain and Renew Customer Relationships" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6DUcF2yb1i8.6YYUXofycl8" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.6DUcF2yb1i8.6kf179ZANdB" displaytext="Disruption-minded Messages" expand="false" type="slide" />
+            <slidelink slideid="_player.6DUcF2yb1i8.6OLgyBDJ2CK" displaytext="Why Stay Research" expand="false" type="slide" />
+            <slidelink slideid="_player.6DUcF2yb1i8.6m6ZpI4Yje7" displaytext="Message Sequencing" expand="false" type="slide">
+              <links>
+                <slidelink slideid="_player.6DUcF2yb1i8.6ZIq44Fovdq" displaytext="Document Results" expand="false" type="slide" />
+                <slidelink slideid="_player.6DUcF2yb1i8.68iHqTeTXl0" displaytext="Review Prior Decision Process" expand="false" type="slide" />
+                <slidelink slideid="_player.6DUcF2yb1i8.6Z0fb7xeaXc" displaytext="Mention Risk of Change" expand="false" type="slide" />
+                <slidelink slideid="_player.6DUcF2yb1i8.63QdTIiVOAX" displaytext="Highlight Cost of Change" expand="false" type="slide" />
+                <slidelink slideid="_player.6DUcF2yb1i8.5pCvS7G5EFr" displaytext="Detail Competitive Advances" expand="false" type="slide" />
+              </links>
+            </slidelink>
+            <slidelink slideid="_player.6DUcF2yb1i8.6i7jA0pxcbY" displaytext="Solution Advances" expand="false" type="slide" />
+            <slidelink slideid="_player.6DUcF2yb1i8.6Z9iSXMg3fs" displaytext="I Need You to Pay More " expand="false" type="slide" />
+            <slidelink slideid="_player.6DUcF2yb1i8.6Z9n1VeNYu6" displaytext="Conclusion" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Verdana' style='font-size: 11px;' size='11' color='#8C8C8C'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="http://learning.corporatevisions.com/products/cpvs/Research-Brief-Whats-In-a-Winning-Renewal-Story.pdf" image="story_content/url.png" title="Research Brief" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6DUcF2yb1i8.6YYUXofycl8" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Welcome, this module is called Retain and Renew Customer Relationships."&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.6kf179ZANdB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Challenging "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="prospects, and getting them receptive to making a change, is an effective strategy when Sales looks to acquire "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="new"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" customers.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Customer Success may be using similar, disruption-minded strategies when you’re "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="retaining or "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" BackgroundColor="#000000,00" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="renewing "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="existing "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="customers.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you don’t continually bring new thinking to your customers, "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="your competition will"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", right? And that could result in losing the account.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Which raises an interesting question:&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="What if"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" Spacing="1" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="YOU are the incumbent?&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="What "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="if"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" Spacing="0" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" Spacing="1" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="YO"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" Spacing="0" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="UR solution is the status quo?&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In today’s subscription economy that gave rise to Customer Success as a unique discipline, you’re likely to find yourself in these types of "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="customer "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" BackgroundColor="#000000,00" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="retention"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" BackgroundColor="#000000,00" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" conversations"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" BackgroundColor="#000000,00" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=".&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Should you follow the same strategy as Sales used to initially open the account?&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Or, Should your strategy change over the customer life cycle?&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Tap what you believe is the best choice.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="_____&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xD;That’s a common misconception.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="There IS a good time to "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="challenge "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="your customers about their current situation, but that time "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="isn’t "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="when you’re trying to renew them.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In fact, research shows that taking a provocative approach when you’re trying to "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="retain "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="customers will "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="backfire"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" on you.&amp;#xD;_____&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Smart choice!&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="don’t "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="want to disrupt, or "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="challenge "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="your customers to think about doing something new or different during your renewal conversations.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In fact, you should you be doing the exact opposite."&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.5W0gQbzdZKR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingAfter="0" /&gt;
+      &lt;Span Text="The balance of this course steps you through two scientifically proven frameworks for telling stories that:&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Convince existing customers to renew their relationship with you; and&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="13" FirstLineMargin="0" LineSpacingRule="Single" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Generate a positive response to a price increase.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" SpacingAfter="0" /&gt;
+      &lt;Span Text="Tap the forward arrow to discover what the research found."&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.6OLgyBDJ2CK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Together with Stanford University, our research partner, we investigated, ‘What’s the most effective approach to customer retention and "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="renewal"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" conversations?’&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Study participants were told that they were going to hear a message from an "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="incumbent"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" vendor as to why they should "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="renew"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", and were separated into three groups.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Group 1 heard a "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="provocative"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" message, one that included new insight specifically designed to cause them to think "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="differently"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" about their situation.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In contrast, Group 2 heard a message that was deliberately constructed to "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="reinforce"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="their status quo "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="situation.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Lastly, Group 3 heard the same provocative message as Group 1, but this time with the addition of new capabilities to consider.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The message all groups heard opened the same way:&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Participants were reminded of their goals, and shown a report documenting tangible progress toward those goals.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Each group was then asked to rate the message they heard across three measures.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="13" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Their resulting attitude.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="13" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Their intention to renew.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="13" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="And their likelihood to switch providers.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You can download this research brief in the top right for more detail about this study."&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.65ThGd9hUox" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Research results showed that people felt considerably "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="more"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" positive when they heard the ‘"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="reinforce status quo’"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" message vs. either of the provocative messages by a statistically significant margin.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="In fact, the "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="‘reinforce status quo"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="’ message registered 9.7% improvement in attitude and positive feelings than the message that introduced a new idea.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When new capabilities were added to the provocative message, attitudes declined even further.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Feeling good about a message is fine, but what really matters is how did they act? Did the customer renew?&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="People were 13.3% "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="more"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" likely to renew in response to the ‘"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="reinforce status quo’"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" message vs. the provocative message.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Again, the gap widened further when new capabilities – with additional cost – were added to the provocative message.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Lastly, participants were queried about their intention to renew from a "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="different"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" angle, this time by asking how likely they would be to shop around, or entertain a competitive offer to "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="switch "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="providers.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Again the ‘"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="reinforce status quo’"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" message returned a statistically significant advantage over the other two conditions, with people being more than 10.6% "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="less likely "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="to switch.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Now that you know that the message that "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="reinforced the status quo "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="outperformed the others in every measure, it raises another question:&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Why were the provocative messages "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="not"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" effective?&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Consider your response, then tap the forward arrow to continue."&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.6NneSBNtcDm" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Because when you introduce a "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="new"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" need you open a possibility of a whole "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="new"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" set of solutions.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="It causes your customers to think, “You know, you’re right. I hadn’t considered that before. But If I’m going to try this new thing, why not explore other options? &amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Is this solution still the best choice given this new set of needs?&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Is a new solution available that wasn’t on the market when we made our initial buy?”&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Not often does research produce such clear results, nor results that so directly contradict popular beliefs, such as the one that "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="challenging "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="your customers throughout the relationship is an effective strategy.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="“Across multiple dimensions, the status quo "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="reinforcement"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" messages were more persuasive and effective than the provocative messages in the ‘"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="why stay’"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" context,” concluded Dr. Zakary Tormala of Stanford.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Tap the forward arrow to discover how you can build stories that "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="reinforce the status quo "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="and position you, as the incumbent, to renew and retain more customers."&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.6m6ZpI4Yje7" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You’ve now discovered that an effective customer "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="retention"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" message is very different than the traditional customer "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="acquisition"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" message. &amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="To make a convincing case for a customer to stay with you, your message must first"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" Document Results"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" you’ve achieved so far, then reinforce the four causes of status quo bias:&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="13" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Preference Stability"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", by renewing your customer’s prior decision process,&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="13" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Anticipated Blame and Regret"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", by mentioning the risk of change,&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="13" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Perceived Cost of Change"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", by highlighting the cost of change,&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="13" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Parentheses" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="And "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="Selection Difficulty"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=", by detailing your solution’s competitive advances.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Now that you know the components of an effective retention message, you may be wondering, ‘Does the "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="sequence"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" that you deliver your ‘reinforce the status quo message’ matter?&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This question was also tested in the research, and it turns out the choreography and flow of your message "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="does"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" significantly influence its effectiveness.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Continue to review the steps of the Message Framework in more detail. "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.6ZIq44Fovdq" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Always "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="document results "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="first.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="If you wait till the end of your message to share all the results your customer has achieved during your relationship, it will materially degrade the effectiveness of your story.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The key is to collaborate with customers right at the handoff from Sales to identify meaningful outcomes you’re trying to achieve together, and how they’ll be measured.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This positions you to open your retention story documenting measures your customer has already agreed are relevant, and demonstrating measurable progress against them.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Tap the speaker to listen to an example.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="_____&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#FF0000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#FF0000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You’ve made measurable progress toward your goals these last two years. Plan participation has risen from 21% to 54%, and your employee satisfaction scores are up. Employee retention rates have also steadily improved, which you identified as the ultimate goal."&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.68iHqTeTXl0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Then, review the "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="prior decision process"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" your customer went through when they chose you.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This reinforces the "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" BackgroundColor="#000000,00" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="preference stability"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" BackgroundColor="#000000,00" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" cause of status quo bias."&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" BackgroundColor="#000000,00" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Although Customer Success may not have been involved at the time of the original decision, this is important information to gather from – or with – Sales. That way, you can recap the customer’s original buying process, reminding them of all the good thinking and analysis they did, and of all the alternatives they evaluated.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="And, after all that effort, that they then had to build internal consensus.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Your goal is to reinforce the preferences they established when they chose you, and get them thinking, ‘Do I really want to repeat all that effort again?’ &amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Tap the speaker to listen to an example.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="_____&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#FF0000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When you signed up two years ago, you really did your homework and evaluated a lot of options before getting your entire team to come to a consensus and choose our company. It was a long process that involved a lot of people, but you ultimately arrived at a big decision to bring this program on board."&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="#4C5759" LinkColor="#4C5759" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.6Z0fb7xeaXc" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Next,"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" mention"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" the "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="risk"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" of change.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="This reinforces the "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="anticipated blame and regret"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" cause of status quo bias.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Link the positive momentum you shared when documenting results to the risk that would be created by making a change now.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Describe what would happen if they made a change and something went wrong. You’re not trying to scare them, but remember that your competition is telling them how easy and smooth a change would be. You want to make sure they understand the risks. &amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="With their goals now in sight, and having come this far, get them thinking, ‘Why would we want to make a change midstream and risk a backward slide?’&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Tap the speaker to listen to an example.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="_____"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#FF0000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="When you signed up two years ago, you really did your homework and evaluated a lot of options before getting your entire team to come to a consensus and choose our company. It was a long process that involved a lot of people, but you ultimately arrived at a big decision to bring this program on board."&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.63QdTIiVOAX" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Right after mentioning the "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="risk"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" of change, "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="highlight"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" the "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="cost"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" of change.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Remember, your customer’s status quo bias is to stay with what they’re doing because people associate "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="cost"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" with change.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Your goal is to reinforce that mindset, and convince your customers that the "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="cost of change "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="is greater than the "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="cost of"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="staying the"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="same"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=".&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Get them thinking, ‘Do I really want to create or find new budget, and perhaps end up paying for the same thing all over again?’&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Tap the speaker to listen to an example.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="_____&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Not to mention that bringing in a different provider would require you to invest time in getting them up to speed and money on implementation costs and other changes that you won’t have to spend if you continue working with us."&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.5pCvS7G5EFr" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Lastly,"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" detail the competitive advances "&gt;
+        &lt;Style FontFamily="Arial" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="you’ve made over the contract period. These are advances to the product or services your customer is renewing, not new capabilities at additional cost. Great customer success managers are likely sharing advances like this with customers across the relationship.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Carefully position the improvements to your existing solution as a better way of achieving their "&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="current "&gt;
+        &lt;Style FontFamily="Arial" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="goals, those you’ve "&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="already "&gt;
+        &lt;Style FontFamily="Arial" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="agreed upon, and do NOT introduce "&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="new goals "&gt;
+        &lt;Style FontFamily="Arial" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="or"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" new needs "&gt;
+        &lt;Style FontFamily="Arial" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="to solve for.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Think evolutionary, not revolutionary.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="For example, “We’re continually enhancing capabilities to better attack the problems we’re jointly solving. Here are some things we’ve done, and are doing, that directly help with your objectives.” &amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Positioned in that context, share a couple examples that get them thinking, ‘Our current solution is keeping pace, I don’t see much difference between it and the alternatives available in the market.’&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Tap the speaker to listen to an example.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="_____"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="We’ve regularly updated your program over the last two years to ensure you’re keeping pace with what’s available in the market today. Specifically, you have two new feature designed to help improve your goals of employee participation and satisfaction. The first is enhanced reporting that enables you to monitor compliance. You can identify employees who made need assistance with time to act, not react. Second, you now also have benefit of a new smartphone app that helps employees make informed decisions and track progress toward their goals.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.6i7jA0pxcbY" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" LineSpacing="20" SpacingAfter="0" /&gt;
+      &lt;Span Text="Before moving on to the tricky topic of communicating price increases, here’s one last customer retention challenge for you:"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" BackgroundColor="#FFFF00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" LineSpacing="20" SpacingAfter="0" /&gt;
+      &lt;Span Text="What if you really DO have a big, new, disruptive solution advance to share with your customers? &amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" LineSpacing="20" SpacingAfter="0" /&gt;
+      &lt;Span Text="If you’re the incumbent, do you stay "&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="silent"&gt;
+        &lt;Style FontFamily="Arial" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" for risk of "&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="disrupting "&gt;
+        &lt;Style FontFamily="Arial" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="then potentially "&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="losing "&gt;
+        &lt;Style FontFamily="Arial" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="your customer?&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LineSpacingRule="Single" LineSpacing="20" SpacingAfter="0" /&gt;
+      &lt;Span Text="Or, do you introduce them to the new and better way?&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Consider your response, then tap the ‘Share or Don’t Share’ button. &amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="_____&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Color="#000000" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="You absolutely want to inform your customers about dramatic solution improvements that can give you a clear competitive advantage, just not at "&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="renewal"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" time.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Instead, share insights and solution advances throughout the contract term, such as during regular business reviews, when they can also help you open new opportunities.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The important thing to remember is: &amp;#xD;In a renewal setting, there should be NO surprises."&gt;
+        &lt;Style FontFamily="Arial" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" LineSpacingRule="Multiple" LineSpacing="21" SpacingBefore="0" SpacingAfter="8"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" BulletFont="Arial" /&gt;
+      &lt;/Style&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.6Z9iSXMg3fs" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In a research shared earlier in this course, you saw that the version of the renewal conversation that included a "&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="price increase "&gt;
+        &lt;Style FontFamily="Arial" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="consistently scored lowest.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="That’s not surprising. No matter how you spin it, price increases are tricky to communicate – regardless of whether that task falls to Customer Success or Sales.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Your conversations can veer in the wrong direction. Fast.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="There’s risk of destabilizing relationships, and undermining loyalty — potentially leaving your customers open to exploring competitors.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Nonetheless, price increase conversations are often a reality, and they often coincide with your renewal and retention conversations.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Together with the Warwick Business School in the U.K., another research partner, we conducted research to investigate "&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="what’s "&gt;
+        &lt;Style FontFamily="Arial" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="the most effective framework for communicating a price increase?&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In other words, what is the "&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="best way "&gt;
+        &lt;Style FontFamily="Arial" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="to pass along a price increase to expand revenue, while minimizing risk?&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Tap the forward arrow to see what the research revealed.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.5pXDciSRXcn" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Consistent with the renewal message study findings, this simulation also revealed that using a challenge-based message that introduced an unconsidered need was the "&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="least "&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="effective approach for framing a price increase.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Doing so resulted in:&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="15" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="18.8 percent less favorable attitudes&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="15" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="15.5 percent lower likelihood to renew; and&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="15" FirstLineMargin="0"&gt;
+        &lt;ListStyle ListType="Bullet" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="16.3 percent higher likelihood to switch to another vendor.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The winning approach "&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="again "&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="was the one that focused on "&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="reinforcing "&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="your customer’s status quo bias, "&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="not "&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="disrupting it. &amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="The study found that the best format for communicating a price increase was a limited time offer, where the new price was anchored high "&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="before "&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="offering a loyalty discount.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="It also found that you must justify your price increase through improved functionality. Explanations such as "&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="your "&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" FontIsItalic="True" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="costs are increasing are not going to be effective.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="In summary, the most effective way for you to communicate a price increase is first to document results and reinforce the four causes of status quo bias, following the same approach you should take in framing your customer renewal conversations, then anchor your price increase high before introducing a loyalty discount. Even if you aren’t the person communicating the price increase, you can set up a successful price increase conversation by consistently reinforcing the status quo leading up to the renewal moment.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="Arial" FontSize="9" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6DUcF2yb1i8.6Z9n1VeNYu6" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Remember, in your customer"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text=" retention "&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" BackgroundColor="#000000,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="conversations and situations where you need to communicate a price increase, begin by documenting your business results. Then review your customers prior decision; mention the risk of change; highlight the cost of change, and detail your competitive advances.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="When communicating a price increase, finish by anchoring your new price high then introducing a loyalty discount.&amp;#xA;"&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style /&gt;
+      &lt;Span Text="Thank you for completing this module."&gt;
+        &lt;Style FontFamily="Arial" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
